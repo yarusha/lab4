@@ -55,3 +55,5 @@ class MainWorksCorrectly(unittest.TestCase):
     def test_main_raises(self, mock_stdout: io.StringIO) -> None:
         with self.assertRaises(ValueError):
             main('a', '2')
+
+    #TEST
